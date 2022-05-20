@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+<body>
+
+    <div class="column2">
+    <div class="card">
+    <h1>#$poke_id $poke_nombre</h1>
+        <img src="$poke_img" width="150" height="150">
+    <div class="container">
+
+        <h4>$poke_etapa</h4>
+        
+        <h2>Estadísticas</h2>
+        <table>
+            <tr>
+               <td><h5>HP: $poke_hp</h5></td>
+<td><h5>Ataque: $poke_at</h5></td>
+<td><h5>Defensa: $poke_de</h5></td>
+<td><h5>Ataque Especial: $poke_ate</h5></td>
+<td><h5>Defensa Especial: $poke_def</h5></td>
+<td><h5>Velocidad: $poke_ve</h5></td>
+            </tr>
+        </table>
+        <h3><b>Tipo</b></h3> 
+           <!-- <span class="label normal">normal.</span> --> 
+           $poke_tipos
+            
+        <p>$poke_desc</p>
+        
+    <h3>Super efectivo contra:</h3>
+        $poke_sec
+
+    <h3>Débil contra:</h3>
+        $poke_dc 
+
+    <h3>Resistente contra:</h3>
+        $poke_rc
+        
+    <h3>Poco Eficaz contra</h3>
+        $poke_pec    
+
+    <h3>Inmune contra:</h3>
+        $poke_imc
+
+    <h3>Ineficaz contra:</h3>
+        $poke_inc
+    
+    </div>
+    </div>
+
+</body>
+</html>
